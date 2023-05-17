@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -9,5 +10,9 @@ int main()
   printf(" BAM UN ORC VOUS ATTAQUE ET VOUS ENLEVE %d points de vie\n", DAMAGES);
   hP -= DAMAGES;
   printf(" Il ne vous reste plus que %d points de vie\n", hP);
+  int age ;
+    printf("Bonjour\nPouvez vous nous indiquer votre âge SVP ?\n");
+    scanf("%d", &age);
+    printf("Je suis heureux d'apprendre que vous avez %d ans! \n\n", age);
   return 0;
 }
