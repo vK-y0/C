@@ -35,7 +35,7 @@ int burger() {
 int main(int argc, char *argv[]) {
   burger();
   int age;
-  printf("Bonjour\nVeuillez indiquer votre age\n");
+  printf("Bo  njour\nVeuillez indiquer votre age\n");
   scanf("%d", &age);
   int majeur = age >= 18;
   return majeur ? printf("Vous etes majeur!\n\n") : printf("Vous etes mineur petit chenapan!\n\n");
